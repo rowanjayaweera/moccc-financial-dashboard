@@ -1,0 +1,22 @@
+Year,Type,Category,Item,Amount,IsActual,IsBudget,IsPriorYear
+2025/26,Revenue,Player Subscriptions,Senior Subscriptions,38500,true,false,false
+2025/26,Revenue,Player Subscriptions,Senior Subscriptions,40000,false,true,false
+2024/25,Revenue,Player Subscriptions,Senior Subscriptions,37000,false,false,true
+2025/26,Revenue,Sponsorship,Mazenod College,18000,true,false,false
+2025/26,Revenue,Sponsorship,Mazenod College,18000,false,true,false
+2024/25,Revenue,Sponsorship,Mazenod College,17500,false,false,true
+2025/26,Revenue,Functions & Events,Reverse Raffle,9000,true,false,false
+2025/26,Revenue,Functions & Events,Reverse Raffle,8500,false,true,false
+2024/25,Revenue,Functions & Events,Reverse Raffle,6700,false,false,true
+2025/26,Expense,Player Payments,Coaching Contract,12000,true,false,false
+2025/26,Expense,Player Payments,Coaching Contract,11500,false,true,false
+2024/25,Expense,Player Payments,Coaching Contract,9000,false,false,true
+2025/26,Expense,Ground & Match Day,Ground Hire,6800,true,false,false
+2025/26,Expense,Ground & Match Day,Ground Hire,7000,false,true,false
+2024/25,Expense,Ground & Match Day,Ground Hire,7400,false,false,true
+2025/26,Expense,Equipment & Uniforms,Uniforms,3500,true,false,false
+2025/26,Expense,Equipment & Uniforms,Uniforms,4000,false,true,false
+2024/25,Expense,Equipment & Uniforms,Uniforms,11000,false,false,true
+2025/26,Expense,Bar & Canteen,Stock Purchases,7400,true,false,false
+2025/26,Expense,Bar & Canteen,Stock Purchases,7000,false,true,false
+2024/25,Expense,Bar & Canteen,Stock Purchases,6800,false,false,true
