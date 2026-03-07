@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useMemo, useState, useEffect, useCallback } from 'react';
 import Papa from 'papaparse';
 import { Moon, Sun, Upload, RefreshCcw, Download } from 'lucide-react';
 import './App.css';
@@ -30,6 +30,43 @@ function App() {
   const [openingBalance, setOpeningBalance] = useState(52067);
   const [parseWarning, setParseWarning] = useState('');
 
+  const parseCSV = useCallback((csvText) => {
+    Papa.parse(csvText, {
+      header: true,
+      skipEmptyLines: true,
+      dynamicTyping: true,
+      complete: function (results) {
+        const missingColumns = validateColumns(results.data?.[0]);
+        const normalized = normalizeRows(results.data || []);
+        const years = getYears(normalized);
+
+        if (missingColumns.length > 0) {
+          setParseWarning(`CSV is missing expected columns: ${missingColumns.join(', ')}`);
+        } else {
+          setParseWarning('');
+        }
+
+        setFinancialData(normalized);
+
+        if (years.length > 0) {
+          setSelectedYear((prev) => (prev && years.includes(prev) ? prev : years[years.length - 1]));
+        }
+      },
+    });
+  }, []);
+
+  const fetchRemoteCSV = useCallback(async () => {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/rowjay29/moccc-financial-dashboard/master/MOCCC%20Financials.csv');
+      const text = await response.text();
+      parseCSV(text);
+      setFileName('MOCCC Financials.csv (sample)');
+    } catch (error) {
+      console.error('Error fetching remote CSV:', error);
+      setParseWarning('Could not load sample data. Please upload your CSV file.');
+    }
+  }, [parseCSV]);
+
   useEffect(() => {
     const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
     if (storedTheme === 'dark' || storedTheme === 'light') {
@@ -50,7 +87,7 @@ function App() {
     } else {
       fetchRemoteCSV();
     }
-  }, []);
+  }, [fetchRemoteCSV, parseCSV]);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
@@ -60,43 +97,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem(OPENING_BALANCE_KEY, String(openingBalance));
   }, [openingBalance]);
-
-  const fetchRemoteCSV = async () => {
-    try {
-      const response = await fetch('https://raw.githubusercontent.com/rowjay29/moccc-financial-dashboard/master/MOCCC%20Financials.csv');
-      const text = await response.text();
-      parseCSV(text);
-      setFileName('MOCCC Financials.csv (sample)');
-    } catch (error) {
-      console.error('Error fetching remote CSV:', error);
-      setParseWarning('Could not load sample data. Please upload your CSV file.');
-    }
-  };
-
-  const parseCSV = (csvText) => {
-    Papa.parse(csvText, {
-      header: true,
-      skipEmptyLines: true,
-      dynamicTyping: true,
-      complete: function (results) {
-        const missingColumns = validateColumns(results.data?.[0]);
-        const normalized = normalizeRows(results.data || []);
-        const years = getYears(normalized);
-
-        if (missingColumns.length > 0) {
-          setParseWarning(`CSV is missing expected columns: ${missingColumns.join(', ')}`);
-        } else {
-          setParseWarning('');
-        }
-
-        setFinancialData(normalized);
-
-        if (years.length > 0 && (!selectedYear || !years.includes(selectedYear))) {
-          setSelectedYear(years[years.length - 1]);
-        }
-      },
-    });
-  };
 
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
