@@ -1,6 +1,10 @@
 import React from 'react';
 
 function TreasurersReport({ selectedYear }) {
+  if (selectedYear === '2025/26') {
+    return <TreasurersReport202526 />;
+  }
+
   if (selectedYear !== '2024/25') {
     return <article className="statement-card min-h-[260px] p-6 md:p-8" />;
   }
@@ -71,6 +75,88 @@ function TreasurersReport({ selectedYear }) {
           The club remains in a strong financial position, noting that the one-off uniforms expense and substantial increase in player payments explain much of the negative result. To grow and invest, the club will need a stronger push to increase sponsorships and broaden its revenue base.
         </li>
       </ol>
+    </article>
+  );
+}
+
+function TreasurersReport202526() {
+  return (
+    <article className="statement-card p-6 leading-relaxed text-slate-700 dark:text-slate-300 md:p-8">
+      <div className="mb-6">
+        <h2 className="mt-1 font-brand text-2xl text-slate-950 dark:text-white">Treasurer's Report</h2>
+      </div>
+
+      <div className="space-y-4 text-sm sm:text-base">
+        <p>
+          For the 2025/26 season, the club finished with a cash-basis profit of{' '}
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$1,704</span>.
+        </p>
+        <p>
+          This is a much better result than last year's loss of{' '}
+          <span className="font-semibold text-rose-600 dark:text-rose-400">$10,295</span>, representing an improvement of almost{' '}
+          <span className="font-semibold">$12,000</span> year on year. It was, however, still{' '}
+          <span className="font-semibold text-rose-600 dark:text-rose-400">$2,594</span> behind our budgeted profit of{' '}
+          <span className="font-semibold">$4,298</span>.
+        </p>
+        <p>
+          So while it is pleasing to finish in the black, the broader message remains fairly clear: even in a season where the club had
+          strong on-field success, including a 1st XI premiership and the 3rd XI making finals, the financial result was still only just
+          above breakeven. That has been a familiar theme for the club over a number of years.
+        </p>
+        <p>
+          Revenue finished at <span className="font-semibold">$73,137</span>, which was <span className="font-semibold">$6,675</span> lower
+          than last year and <span className="font-semibold">$16,663</span> below budget. Expenses finished at{' '}
+          <span className="font-semibold">$71,433</span>, which was <span className="font-semibold">$18,674</span> lower than last year and{' '}
+          <span className="font-semibold">$14,069</span> below budget. In simple terms, revenue came under pressure, but we were able to
+          offset much of that through lower costs.
+        </p>
+        <p>
+          The club ended the year with a closing bank balance of{' '}
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$43,476</span>.
+        </p>
+        <p>
+          The current economic environment remains challenging, not only for community clubs, but for businesses and supporters as well.
+          That was made clear this season when MOCA, who have been one of our most consistent supporters, were unable to commit their usual
+          contribution. We also lost part of our existing sponsor base from last year. Pleasingly, through the efforts of Matt Quinn, we were
+          able to bring in new sponsorship support, which helped soften the impact.
+        </p>
+
+        <div>
+          <p className="font-semibold text-slate-950 dark:text-white">I would like to thank our sponsors for their support:</p>
+          <ul className="mt-2 ml-6 list-disc space-y-1">
+            <li>Bowery Capital</li>
+            <li>McLardy McShane</li>
+            <li>Win Real Estate</li>
+            <li>Wyllie Electrical Solutions</li>
+            <li>Weatherware Protection</li>
+            <li>Mulgrave Country Club</li>
+            <li>Transcal</li>
+          </ul>
+        </div>
+
+        <p>
+          When finances are tight, the smaller wins matter. Our functions made an important contribution this year, with the Reverse Raffle
+          making just under <span className="font-semibold">$6,000</span>, Ladies Day just under <span className="font-semibold">$800</span>,
+          the Christmas Breakup around <span className="font-semibold">$500</span>, Presentation Night around{' '}
+          <span className="font-semibold">$700</span>, and the darts tournament also adding to the bottom line. None of these items solve
+          everything on their own, but together they helped keep us in the black. I would also like to thank Michael Riley and the committee
+          for their work across the season.
+        </p>
+        <p>
+          The hoodie order was another positive result, with strong buy-in from members and more than 41 hoodies purchased, contributing
+          around <span className="font-semibold">$600</span> in profit.
+        </p>
+        <p>
+          Looking forward, sponsorship and grants remain the biggest levers available to us if we want to invest further in the club. The
+          junior program continues to go from strength to strength and remains one of our most important revenue drivers through subscriptions.
+          More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there is a real
+          opportunity to grow our supporter and sponsorship network.
+        </p>
+        <p>
+          Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
+          we need to keep building sustainable revenue streams if we want to continue investing in the club.
+        </p>
+      </div>
     </article>
   );
 }

@@ -1,6 +1,10 @@
 import React from 'react';
 
 function KeyRevenueItems({ selectedYear }) {
+  if (selectedYear === '2025/26') {
+    return <KeyRevenueItems202526 />;
+  }
+
   if (selectedYear !== '2024/25') {
     return <article className="statement-card min-h-[260px] p-6 md:p-8" />;
   }
@@ -57,6 +61,76 @@ function KeyRevenueItems({ selectedYear }) {
       <Section title="Bar and Food">
         <p>
           The bar underperformed against budget and previous years. This is an area to review moving forward. The club manages drink purchases efficiently, but markups need an overhaul to accommodate cost increases from recent seasons.
+        </p>
+      </Section>
+    </article>
+  );
+}
+
+function KeyRevenueItems202526() {
+  return (
+    <article className="statement-card p-6 leading-relaxed text-slate-700 dark:text-slate-300 md:p-8">
+      <div className="mb-6">
+        <p className="eyebrow">Revenue commentary</p>
+        <h2 className="mt-1 font-brand text-2xl text-slate-950 dark:text-white">Key Revenue Lines</h2>
+      </div>
+
+      <Section title="Overall Revenue">
+        <p>
+          Total revenue finished at <span className="font-semibold">$73,137</span>, which was{' '}
+          <span className="font-semibold">$6,675</span> lower than last year and{' '}
+          <span className="font-semibold">$16,663</span> below budget.
+        </p>
+      </Section>
+
+      <Section title="Sponsors, Grants and Memberships">
+        <p>
+          The biggest pressure point was sponsors, grants and memberships, which finished at{' '}
+          <span className="font-semibold">$10,742</span> compared with <span className="font-semibold">$17,000</span> last year. This
+          reflects the loss of some existing sponsor support and MOCA being unable to provide its usual contribution. New sponsorships
+          helped reduce the impact, but did not fully replace what was lost.
+        </p>
+        <p className="mt-2">
+          Thanks to Matt Quinn's work across the season, the club was able to bring in new sponsorship support and soften what would
+          otherwise have been a larger shortfall.
+        </p>
+      </Section>
+
+      <Section title="Functions and Events">
+        <p>
+          Functions, bar and food generated <span className="font-semibold">$31,031</span> in revenue. Function profits were important this
+          year, with the Reverse Raffle, Ladies Day, Christmas Breakup, Presentation Night and the darts tournament all contributing. These
+          events made a genuine difference to the final result.
+        </p>
+        <ul className="mt-2 ml-6 list-disc space-y-1">
+          <li>Reverse Raffle: just under $6,000 profit.</li>
+          <li>Ladies Day: just under $800 profit.</li>
+          <li>Christmas Breakup: around $500 profit.</li>
+          <li>Presentation Night: around $700 profit.</li>
+          <li>Darts tournament: a smaller contribution, but still helpful to the bottom line.</li>
+        </ul>
+      </Section>
+
+      <Section title="Subscriptions">
+        <p>
+          Subscriptions finished at <span className="font-semibold">$27,994</span>, slightly below last year and below budget. The junior
+          program remains the strongest long-term positive in this area and continues to be a major driver of subscription revenue.
+        </p>
+      </Section>
+
+      <Section title="Bar and Food">
+        <p>
+          Bar takings increased compared with last year, which is a positive sign for engagement around the club. However, the profit on
+          the bar remained broadly flat at just over <span className="font-semibold">$2,500</span>, because the increased takings were
+          matched by increased costs. Bar prices were increased during the year, but this was largely to absorb cost increases rather than
+          improve margin.
+        </p>
+      </Section>
+
+      <Section title="Other Revenue">
+        <p>
+          Other revenue was helped by uniform-related income, including the hoodie order, which added around{' '}
+          <span className="font-semibold">$600</span> in profit.
         </p>
       </Section>
     </article>

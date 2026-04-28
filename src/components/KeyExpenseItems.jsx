@@ -1,6 +1,10 @@
 import React from 'react';
 
 function KeyExpenseItems({ selectedYear }) {
+  if (selectedYear === '2025/26') {
+    return <KeyExpenseItems202526 />;
+  }
+
   if (selectedYear !== '2024/25') {
     return <article className="statement-card min-h-[260px] p-6 md:p-8" />;
   }
@@ -54,6 +58,70 @@ function KeyExpenseItems({ selectedYear }) {
           <li>Trophies and recognition costs were reduced by repurposing unused stock from last year.</li>
           <li>The clubroom renovation used Bunnings flatpacks, additional cabinets, and associated labour, costing just over $3k and coming in slightly over budget.</li>
         </ol>
+      </Section>
+    </article>
+  );
+}
+
+function KeyExpenseItems202526() {
+  return (
+    <article className="statement-card p-6 leading-relaxed text-slate-700 dark:text-slate-300 md:p-8">
+      <div className="mb-6">
+        <p className="eyebrow">Expense commentary</p>
+        <h2 className="mt-1 font-brand text-2xl text-slate-950 dark:text-white">Key Expense Lines</h2>
+      </div>
+
+      <Section title="Overall Expenses">
+        <p>
+          Total expenses finished at <span className="font-semibold">$71,433</span>, which was{' '}
+          <span className="font-semibold">$18,674</span> lower than last year and{' '}
+          <span className="font-semibold">$14,069</span> below budget.
+        </p>
+      </Section>
+
+      <Section title="Player Payments">
+        <p>
+          Player payments were the largest favourable movement compared with last year. Spend reduced to{' '}
+          <span className="font-semibold">$16,536</span>, down from <span className="font-semibold">$29,566</span> last year. Given the
+          club's on-field success, particularly the 1st XI premiership, this represented strong value for the level of investment.
+        </p>
+        <p className="mt-2">
+          Looking at our bottom line, cost base, and the number of teams and players we can field, this level of investment is about what
+          the club can manage in the near future unless sponsorship revenue grows or we are successful with grants.
+        </p>
+      </Section>
+
+      <Section title="Equipment, Uniforms and Training">
+        <p>
+          Equipment, uniforms and training costs were also lower year on year, finishing at{' '}
+          <span className="font-semibold">$15,757</span> compared with <span className="font-semibold">$24,571</span> last year. The main
+          driver was uniforms, with last year including a larger senior uniform order.
+        </p>
+        <p className="mt-2">
+          Because we report on a cash basis, we absorb those costs fully in the year they occur, and this year benefited from that prior-year
+          spend not repeating.
+        </p>
+      </Section>
+
+      <Section title="Functions, Bar and Food">
+        <p>
+          Functions, bar and food expenses increased year on year, mainly due to higher bar activity and higher input costs. While bar
+          revenue increased, the extra revenue did not flow through to a materially higher profit because the cost base increased at the same
+          time.
+        </p>
+      </Section>
+
+      <Section title="Game Day and Affiliation Fees">
+        <p>
+          Game day and affiliation costs were broadly consistent with last year and came in below budget.
+        </p>
+      </Section>
+
+      <Section title="Looking Ahead">
+        <p>
+          The overall expense result was well managed, but the bigger picture remains that our cost base leaves limited room for further
+          investment unless revenue grows. Sponsorship and grants remain the clearest opportunities to improve that position.
+        </p>
       </Section>
     </article>
   );
