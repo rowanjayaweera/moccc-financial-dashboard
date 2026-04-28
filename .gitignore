@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vercel
+.env*.local
+
+# local browser/pdf render profiles
+.chrome-profile*/
+.edge-profile*/
+.tmp-chrome-pdf-profile/
+.tmp-edge-pdf-profile/
+.tmp_pdf_review/

@@ -1,39 +1,21 @@
 import React from 'react';
+import { formatCurrency, getMetricForRows } from '../utils/financialUtils';
 
 function CategoryCard({ data, type }) {
-  const actualTotal = data
-    .filter((row) => row.Type === type && row.IsActual)
-    .reduce((sum, row) => sum + (parseFloat(row.Amount) || 0), 0);
-
-  const budgetTotal = data
-    .filter((row) => row.Type === type && row.IsBudget)
-    .reduce((sum, row) => sum + (parseFloat(row.Amount) || 0), 0);
-
+  const metrics = getMetricForRows(data);
+  const actualTotal = type === 'Revenue' ? metrics.actualRevenue : metrics.actualExpense;
+  const budgetTotal = type === 'Revenue' ? metrics.budgetRevenue : metrics.budgetExpense;
   const variance = actualTotal - budgetTotal;
-  const variancePercent = budgetTotal === 0 ? '–' : ((variance / budgetTotal) * 100).toFixed(1);
-
-  const formatCurrency = (value) =>
-    value.toLocaleString('en-AU', {
-      style: 'currency',
-      currency: 'AUD',
-      minimumFractionDigits: 0,
-    });
+  const variancePercent = budgetTotal === 0 ? '-' : `${((variance / budgetTotal) * 100).toFixed(1)}%`;
+  const favourable = type === 'Expense' ? variance <= 0 : variance >= 0;
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow">
-      <h2 className="text-lg font-semibold mb-1">{type}</h2>
-      <div className="flex justify-between text-sm text-gray-600">
-        <span>Actual 2024/25</span>
-        <span>Budget 2024/25</span>
-        <span>Variance</span>
-      </div>
-      <div className="flex justify-between items-center text-xl font-bold text-blue-900">
-        <span>{formatCurrency(actualTotal)}</span>
-        <span>{formatCurrency(budgetTotal)}</span>
-        <span className={variance < 0 ? 'text-red-600' : 'text-green-600'}>
-          {formatCurrency(variance)}
-          <span className="text-sm font-normal ml-1">({variancePercent}%)</span>
-        </span>
+    <div className={`metric-card ${type === 'Revenue' ? 'metric-card-green' : 'metric-card-red'}`}>
+      <div className="eyebrow">{type}</div>
+      <div className="mt-3 font-brand text-3xl text-slate-950 dark:text-white">{formatCurrency(actualTotal)}</div>
+      <div className="mt-1 text-sm text-slate-600 dark:text-slate-400">Budget {formatCurrency(budgetTotal)}</div>
+      <div className={`mt-5 inline-flex rounded-full px-3 py-1 text-xs font-semibold ${favourable ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300' : 'bg-rose-100 text-rose-700 dark:bg-rose-500/10 dark:text-rose-300'}`}>
+        {formatCurrency(variance)} ({variancePercent})
       </div>
     </div>
   );

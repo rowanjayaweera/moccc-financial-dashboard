@@ -1,112 +1,119 @@
-// Summary.jsx
 import React from 'react';
+import { formatCurrency, getMetricForRows, isFavourableVariance } from '../utils/financialUtils';
 
-function Summary({ data }) {
-  const formatCurrency = (value) => {
-    const num = Number(value);
-    if (isNaN(num)) return '$0';
-    return num.toLocaleString('en-AU', {
-      style: 'currency',
-      currency: 'AUD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    });
-  };
-
-  const calcTotal = (type, flag) =>
-    data.filter(row => row.Type === type && row[flag])
-      .reduce((sum, row) => sum + (parseFloat(row.Amount) || 0), 0);
-
-  const actualRevenue = calcTotal('Revenue', 'IsActual');
-  const budgetRevenue = calcTotal('Revenue', 'IsBudget');
-  const actualExpense = calcTotal('Expense', 'IsActual');
-  const budgetExpense = calcTotal('Expense', 'IsBudget');
-  const actualProfit = actualRevenue - actualExpense;
-  const budgetProfit = budgetRevenue - budgetExpense;
-
-  const openingBalance = 52067;
-  const netMovement = actualProfit;
+function Summary({ data, openingBalance = 0 }) {
+  const metrics = getMetricForRows(data);
+  const netMovement = metrics.actualProfit;
   const closingBalance = openingBalance + netMovement;
 
-  const StatRow = ({ title, actual, budget }) => {
-    const variance = actual - budget;
-    const isExpense = title === 'Expense';
-    const isProfit = title === 'Profit';
-  
-    const varianceColor =
-      variance < 0
-        ? isExpense ? 'text-green-600' : 'text-red-600'
-        : isExpense ? 'text-red-600' : 'text-green-600';
-  
-    const budgetColor =
-      isProfit && budget < 0
-        ? 'text-red-600 font-semibold'
-        : 'text-blue-800 font-semibold';
-  
-    return (
-      <div className="mb-6">
-        <h3 className="text-md font-bold mb-1">{title}</h3>
-        <div className="grid grid-cols-3 text-sm sm:text-base">
-          <div className="text-left">
-            <div className="text-gray-500">Actual</div>
-            <div className={actual < 0 ? 'text-red-600 font-semibold' : 'text-blue-800 font-semibold'}>
-              {formatCurrency(actual)}
-            </div>
-          </div>
-          <div className="text-left">
-            <div className="text-gray-500">Budget</div>
-            <div className={budgetColor}>
-              {formatCurrency(budget)}
-            </div>
-          </div>
-          <div className="text-left">
-            <div className="text-gray-500">Variance</div>
-            <div className={`${varianceColor} font-semibold`}>
-              {formatCurrency(variance)}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  };
-  
+  const rows = [
+    {
+      title: 'Revenue',
+      actual: metrics.actualRevenue,
+      budget: metrics.budgetRevenue,
+      type: 'Revenue',
+    },
+    {
+      title: 'Expense',
+      actual: metrics.actualExpense,
+      budget: metrics.budgetExpense,
+      type: 'Expense',
+    },
+    {
+      title: 'Net Movement',
+      actual: metrics.actualProfit,
+      budget: metrics.budgetProfit,
+      type: 'Revenue',
+    },
+  ];
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6">
-      <div className="flex-1 p-6 bg-white rounded-xl shadow-xl">
-        <h2 className="text-2xl font-bold mb-6">Summary Position</h2>
-        <StatRow title="Revenue" actual={actualRevenue} budget={budgetRevenue} />
-        <StatRow title="Expense" actual={actualExpense} budget={budgetExpense} />
-        <StatRow title="Profit" actual={actualProfit} budget={budgetProfit} />
-      </div>
-
-      <div className="flex-1 flex flex-col justify-between gap-6">
-        <div className="bg-white p-6 rounded-xl shadow-xl flex-1">
-          <h2 className="text-2xl font-bold mb-4">Cash Balance Summary</h2>
-          <div className="flex justify-between text-sm sm:text-base mb-2">
-            <span className="text-gray-600">Opening Balance</span>
-            <span>{formatCurrency(openingBalance)}</span>
-          </div>
-          <div className="flex justify-between text-sm sm:text-base mb-2">
-            <span className="text-gray-600">Net Movement</span>
-            <span className={netMovement < 0 ? 'text-red-600' : 'text-green-600'}>
-              {formatCurrency(netMovement)}
-            </span>
-          </div>
-          <div className="flex justify-between font-bold text-lg pt-2 border-t border-black mt-4">
-            <span>Closing Balance</span>
-            <span>{formatCurrency(closingBalance)}</span>
-          </div>
+    <div className="grid gap-6 xl:grid-cols-[minmax(0,1.25fr)_minmax(320px,0.75fr)]">
+      <section className="statement-card p-5">
+        <div className="mb-5">
+          <p className="eyebrow">Financial position</p>
+          <h2 className="mt-1 font-brand text-xl text-slate-950 dark:text-white">Summary Position</h2>
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow-xl flex-1">
-          <h2 className="text-md font-bold mb-4">Club Details</h2>
-          <p className="text-sm sm:text-base mb-2">Mazenod Cricket Club</p>
-          <p className="text-sm sm:text-base mb-2">Affiliations: ECA, FTGDCA, ISEC</p>
-          <p className="text-sm sm:text-base mb-2">ABN: 54 530 186 804</p>
-          <p className="text-sm sm:text-base">Created By: Rowan Jayaweera</p>
+        <div className="overflow-x-auto rounded-[22px] border border-slate-200/70 bg-white/80 dark:border-white/10 dark:bg-white/[0.03]">
+          <table className="statement-table">
+            <thead>
+              <tr>
+                <th className="text-left">Measure</th>
+                <th className="text-right">Actual</th>
+                <th className="text-right">Budget</th>
+                <th className="text-right">Variance</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row) => {
+                const variance = row.actual - row.budget;
+                const favourable = isFavourableVariance(variance, row.type);
+                return (
+                  <tr key={row.title} className="transition hover:bg-slate-50/80 dark:hover:bg-white/[0.03]">
+                    <td className="font-semibold text-slate-950 dark:text-white">{row.title}</td>
+                    <td className="text-right font-semibold tabular-nums text-slate-950 dark:text-white">
+                      {formatCurrency(row.actual)}
+                    </td>
+                    <td className="text-right tabular-nums text-slate-500 dark:text-slate-400">
+                      {formatCurrency(row.budget)}
+                    </td>
+                    <td className={`text-right font-semibold tabular-nums ${favourable ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`}>
+                      {formatCurrency(variance)}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
+      </section>
+
+      <div className="grid gap-6">
+        <section className="statement-card p-5">
+          <p className="eyebrow">Cash bridge</p>
+          <h2 className="mt-1 font-brand text-xl text-slate-950 dark:text-white">Cash Balance Summary</h2>
+          <div className="mt-5 space-y-3 text-sm">
+            <BalanceRow label="Opening Balance" value={formatCurrency(openingBalance)} />
+            <BalanceRow
+              label="Net Movement"
+              value={formatCurrency(netMovement)}
+              tone={netMovement < 0 ? 'negative' : 'positive'}
+            />
+            <div className="mt-4 flex items-center justify-between border-t border-slate-200 pt-4 text-lg font-semibold dark:border-white/10">
+              <span>Closing Balance</span>
+              <span>{formatCurrency(closingBalance)}</span>
+            </div>
+          </div>
+        </section>
+
+        <section className="statement-card p-5">
+          <p className="eyebrow">Club details</p>
+          <h2 className="mt-1 font-brand text-xl text-slate-950 dark:text-white">Mazenod Cricket Club</h2>
+          <div className="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300">
+            <p>Affiliations: ECA, FTGDCA, ISEC</p>
+            <p>ABN: 54 530 186 804</p>
+            <p>Kernot Avenue, Mulgrave 3170</p>
+            <p>Prepared by: Rowan Jayaweera</p>
+          </div>
+        </section>
       </div>
+    </div>
+  );
+}
+
+function BalanceRow({ label, value, tone }) {
+  const toneClass =
+    tone === 'negative'
+      ? 'text-rose-600 dark:text-rose-400'
+      : tone === 'positive'
+        ? 'text-emerald-600 dark:text-emerald-400'
+        : 'text-slate-950 dark:text-white';
+
+  return (
+    <div className="flex items-center justify-between rounded-2xl bg-slate-50/80 px-4 py-3 dark:bg-white/[0.04]">
+      <span className="text-slate-500 dark:text-slate-400">{label}</span>
+      <span className={`font-semibold tabular-nums ${toneClass}`}>{value}</span>
     </div>
   );
 }

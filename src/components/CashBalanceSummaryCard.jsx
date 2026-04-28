@@ -1,54 +1,39 @@
 import React from 'react';
+import { formatCurrency, getMetricForRows } from '../utils/financialUtils';
 
-function CashBalanceSummaryCard({ data }) {
-  const formatCurrency = (value, useColor = false) => {
-    const num = Number(value);
-    const formatted = num.toLocaleString('en-AU', {
-      style: 'currency',
-      currency: 'AUD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    });
-
-    if (!useColor) return formatted;
-
-    return (
-      <span className={num < 0 ? 'text-red-600' : 'text-green-600'}>
-        {formatted}
-      </span>
-    );
-  };
-
-  const openingBalance = 52067;
-
-  const actualRevenue = data
-    .filter((r) => r.Type === 'Revenue' && r.IsActual)
-    .reduce((sum, r) => sum + (parseFloat(r.Amount) || 0), 0);
-
-  const actualExpense = data
-    .filter((r) => r.Type === 'Expense' && r.IsActual)
-    .reduce((sum, r) => sum + (parseFloat(r.Amount) || 0), 0);
-
-  const netMovement = actualRevenue - actualExpense;
+function CashBalanceSummaryCard({ data, openingBalance = 0 }) {
+  const metrics = getMetricForRows(data);
+  const netMovement = metrics.actualProfit;
   const closingBalance = openingBalance + netMovement;
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow">
-      <h3 className="text-lg font-semibold mb-2">Cash Balance Summary</h3>
-      <div className="space-y-1 text-sm text-gray-800">
-        <div className="flex justify-between">
-          <span>Opening Balance</span>
-          <span>{formatCurrency(openingBalance)}</span>
-        </div>
-        <div className="flex justify-between">
-          <span>Net Movement</span>
-          <span>{formatCurrency(netMovement, true)}</span>
-        </div>
-        <div className="flex justify-between font-bold pt-2 border-t">
+    <div className="statement-card p-5">
+      <p className="eyebrow">Cash bridge</p>
+      <h3 className="mt-1 font-brand text-xl text-slate-950 dark:text-white">Cash Balance Summary</h3>
+      <div className="mt-5 space-y-3 text-sm">
+        <BalanceLine label="Opening Balance" value={formatCurrency(openingBalance)} />
+        <BalanceLine label="Net Movement" value={formatCurrency(netMovement)} tone={netMovement < 0 ? 'negative' : 'positive'} />
+        <div className="flex justify-between border-t border-slate-200 pt-4 font-semibold dark:border-white/10">
           <span>Closing Balance</span>
           <span>{formatCurrency(closingBalance)}</span>
         </div>
       </div>
+    </div>
+  );
+}
+
+function BalanceLine({ label, value, tone }) {
+  const toneClass =
+    tone === 'negative'
+      ? 'text-rose-600 dark:text-rose-400'
+      : tone === 'positive'
+        ? 'text-emerald-600 dark:text-emerald-400'
+        : 'text-slate-950 dark:text-white';
+
+  return (
+    <div className="flex justify-between rounded-2xl bg-slate-50/80 px-4 py-3 dark:bg-white/[0.04]">
+      <span className="text-slate-500 dark:text-slate-400">{label}</span>
+      <span className={`font-semibold tabular-nums ${toneClass}`}>{value}</span>
     </div>
   );
 }
