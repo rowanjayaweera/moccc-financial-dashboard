@@ -87,11 +87,11 @@ function KeyRevenueItems202526() {
         <p>
           The biggest pressure point was sponsors, grants and memberships, which finished at{' '}
           <span className="font-semibold">$10,742</span> compared with <span className="font-semibold">$17,000</span> last year. This
-          reflects the loss of some existing sponsor support and MOCA being unable to provide its usual contribution. New sponsorships
-          helped reduce the impact, but did not fully replace what was lost.
+          reflects the loss of some existing sponsor support and MOCA not being in a position to provide its usual contribution. New
+          sponsorships helped reduce the impact, but did not fully replace what was lost.
         </p>
         <p className="mt-2">
-          Thanks to Matt Quinn's work across the season, the club was able to bring in new sponsorship support and soften what would
+          Thanks to Matt Quinn's work across the season, the club was able to bring in new sponsorship support and reduce what would
           otherwise have been a larger shortfall.
         </p>
       </Section>

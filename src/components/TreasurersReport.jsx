@@ -116,9 +116,9 @@ function TreasurersReport202526() {
         </p>
         <p>
           The current economic environment remains challenging, not only for community clubs, but for businesses and supporters as well.
-          That was made clear this season when MOCA, who have been one of our most consistent supporters, were unable to commit their usual
-          contribution. We also lost part of our existing sponsor base from last year. Pleasingly, through the efforts of Matt Quinn, we were
-          able to bring in new sponsorship support, which helped soften the impact.
+          That was made clear this season when MOCA, who have been one of our most consistent supporters, were not in a position to provide
+          their usual contribution. We also lost part of our existing sponsor base from last year. Pleasingly, through the efforts of Matt
+          Quinn, we were able to bring in new sponsorship support, which helped reduce the impact.
         </p>
 
         <div>
@@ -147,7 +147,7 @@ function TreasurersReport202526() {
           around <span className="font-semibold">$600</span> in profit.
         </p>
         <p>
-          Looking forward, sponsorship and grants remain the biggest levers available to us if we want to invest further in the club. The
+          Looking forward, sponsorship and grants remain the two biggest levers available to us if we want to invest further in the club. The
           junior program continues to go from strength to strength and remains one of our most important revenue drivers through subscriptions.
           More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there is a real
           opportunity to grow our supporter and sponsorship network.
