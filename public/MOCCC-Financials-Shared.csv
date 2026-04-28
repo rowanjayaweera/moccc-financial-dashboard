@@ -1,0 +1,735 @@
+Year,Type,Category,Item,Amount,IsActual,IsBudget,IsPriorYear
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,1500,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,711.95,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,6829.09,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,593.38,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,45,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,146.25,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,1483.87,TRUE,FALSE,FALSE
+2025/26,Expense,Reward and Recognition,Trophies,128.84,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,469.45,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,500,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,80,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,49.1,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,20,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,3000,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,167.36,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,34.37,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,368,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,30,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,1046.99,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,22.25,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,28.5,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,29.72,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,779.87,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,237.64,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Miscellaneous,49,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Liquor Licence,343.17,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,94.94,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Miscellaneous,49,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,827.39,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,210.8,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,156.85,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,613.21,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,11.81,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,43.97,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,63.3,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,721.03,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,743.78,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,20,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,15,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,115,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,66.23,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,294.24,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,60,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,186.49,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Donations,210,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,95.9,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,195.82,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,18.92,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,34.65,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,222.75,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,248,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,11,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,31.98,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,220,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),260,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,273.54,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,16.92,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,-490,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,240.09,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,182.09,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,14.4,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,243.74,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,850,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,68.4,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,376.37,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),285,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,21.91,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,135.8,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,228.15,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,92.5,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,75.77,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,21.8,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,5000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,179.11,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,137.48,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,11,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,218.45,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,23.39,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,105.7,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,24,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,25.05,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,17.22,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,11,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,165.26,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,280,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,12,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,96.43,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,224.81,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,11,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,240.28,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,450,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,13.8,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,51.98,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,15.26,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,70.5,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,380,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,33,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,13.78,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,42.57,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,145.62,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,60,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,60,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,120,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,120,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,105,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,140,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,120,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,405.9,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,30.33,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Miscellaneous,60.7,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,106.77,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,83.63,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,324.52,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,1443.54,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,22.86,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,43.2,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,446.73,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,20,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,100,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,2.5,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,90,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,61.6,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,112.67,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,181.88,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,60,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,300,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,4.5,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,16.75,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,227.81,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,86.11,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),142.5,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,170,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,T20 Competition Entry,110,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,324,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,External Ground Hire,491.1,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,-490,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,14.44,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,278.88,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,33,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,860.53,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,92.2,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Fines,500,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Uniforms,2110.58,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Uniforms,3914.35,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,31.48,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,70,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,1000,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,339.89,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,315.46,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,500,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,174.67,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,25,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,51.43,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,79.21,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,127.42,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,22,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,28.77,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,40.55,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,279,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,172.68,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,88.38,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,74.28,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,90.04,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,151.8,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,877.8,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,274.96,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,12.83,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,179.43,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,40,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,210.85,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,68.74,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,4.7,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,343.13,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,80,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,48.47,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,243.87,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,40,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Scoreboard,23,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),23.97,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,71.97,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,451.72,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,42.32,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,73.65,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,68.74,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,28.77,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,186.09,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,300,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,7.96,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,25,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,33.25,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,178.87,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,158.6,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,150,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,8.4,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,20,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,279.87,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,52,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,262.88,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,22.5,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Training,85,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),95,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),190,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,200,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,324,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,459,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,825,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,1140,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,1212,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,3858,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,26.68,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,73.81,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,208.31,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,20,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,274.96,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,295.89,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,20,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,11.31,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,240.77,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,80,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Bank / Paypal Fees,3,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,99.99,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,29,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,259.26,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,31.14,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,903.44,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,10.2,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,-100,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,-490,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,811,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,384.7,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,34.22,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,182.53,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,140,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,44.42,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,1000,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,1.48,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,3.01,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,2111.3,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,16.4,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,2449.1,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,220.95,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,39.91,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,74.5,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,797.98,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,37.04,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,98.9,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,153.89,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,1100,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,201.71,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,-230,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,381.21,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),715,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,4.92,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,1826.52,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,87.57,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,5.6,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,2236.01,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,73.65,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,441.9,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,319.46,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,285,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,20,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,550,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Training,117,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,234.8,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,-58.92,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,300,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Scoreboard,380,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,500,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,2064,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,10.1,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,4.92,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,51.74,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,4320.8,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,9.84,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,2182,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,471.36,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,25.61,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,55.89,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,905.11,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,900,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,39.96,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,45,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,72.95,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,230,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,112.66,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,100.8,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,87.44,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,11.22,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,565.95,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,372.86,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,1924.72,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,4105.71,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,1215.72,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,11.91,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,110,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,1332.5,TRUE,FALSE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,500,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,864.16,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,2092.63,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Uniforms,1031.1,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,285,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,32.95,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,44.5,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,3000,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,55,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,16.63,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,1148.8,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,19.51,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,30,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Training,1575,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,571.2,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Car Registration,930.7,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,577.6,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,19.49,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,566.95,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,25,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,1427,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,452.65,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,26.15,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,Other,IT Charges,75,TRUE,FALSE,FALSE
+2025/26,Expense,Other,Association Presentation Night,240,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,455.6,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),20,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),40,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),75,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),180,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),180,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),202.5,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,518.75,TRUE,FALSE,FALSE
+2025/26,Expense,Reward and Recognition,Trophies,2164.8,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,29.57,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,991.97,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,57.58,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,165.1,TRUE,FALSE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,100,TRUE,FALSE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),135,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,3265,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,22.97,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Interest,0,TRUE,FALSE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,210.87,TRUE,FALSE,FALSE
+2025/26,Revenue,Other,Miscellaneous,67.14,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,60,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,25,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,25,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,25,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,50,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,25,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,125,TRUE,FALSE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,740,TRUE,FALSE,FALSE
+2025/26,Revenue,Subscriptions,Senior Mens Subscription Fees,13950,FALSE,TRUE,FALSE
+2025/26,Revenue,Subscriptions,Junior Subscription Fees,14750,FALSE,TRUE,FALSE
+2025/26,Revenue,Subscriptions,Veterans Subscription Fees,1500,FALSE,TRUE,FALSE
+2025/26,Revenue,Subscriptions,Women's Subscription Fees,0,FALSE,TRUE,FALSE
+2025/26,Revenue,Subscriptions,All Abilities Subscription Fees,600,FALSE,TRUE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,26400,FALSE,TRUE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,15500,FALSE,TRUE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",50 Year Anniversary,0,FALSE,TRUE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,11500,FALSE,TRUE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Grants,4000,FALSE,TRUE,FALSE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,1000,FALSE,TRUE,FALSE
+2025/26,Revenue,Other,Afternoon Tea,0,FALSE,TRUE,FALSE
+2025/26,Revenue,Other,Interest,600,FALSE,TRUE,FALSE
+2025/26,Revenue,Other,Uniforms,0,FALSE,TRUE,FALSE
+2025/26,Revenue,Other,Miscellaneous,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,14775,FALSE,TRUE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,10000,FALSE,TRUE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Bar - Operational,500,FALSE,TRUE,FALSE
+2025/26,Expense,"Functions, Bar & Food",Liquor Licence,350,FALSE,TRUE,FALSE
+2025/26,Expense,"Functions, Bar & Food",50 Year Anniversary,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8500,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Uniforms,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Match Day Uniforms,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Junior Uniforms,5000,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),500,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Operational Equipment Expenses,500,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Training,2500,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Scoreboard,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Equipment, & Uniforms & Training",Bowling Machine,0,FALSE,TRUE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,6000,FALSE,TRUE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,13067,FALSE,TRUE,FALSE
+2025/26,Expense,"Coach, Captain & Player Payments",Captain ,1000,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Regular Season),5000,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires -  (Finals),1000,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,2000,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1300,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Veterans,550,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Womens,550,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,100,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,T20 Competition Entry,250,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,2000,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,Frogbox,0,FALSE,TRUE,FALSE
+2025/26,Expense,Game Day & Affiliation Fees,External Ground Hire,1000,FALSE,TRUE,FALSE
+2025/26,Expense,Reward and Recognition,Trophies,2600,FALSE,TRUE,FALSE
+2025/26,Expense,College and Sponsors,Mazenod College Payment,2600,FALSE,TRUE,FALSE
+2025/26,Expense,College and Sponsors,Sponsorships,0,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Renovation to Clubrooms,1000,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Miscellaneous,500,FALSE,TRUE,FALSE
+2025/26,Expense,Other,IT Charges,900,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Social Media,60,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Donations,0,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Fines,0,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Bank / Paypal Fees,500,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Association Presentation Night,0,FALSE,TRUE,FALSE
+2025/26,Expense,Other,Car Registration,900,FALSE,TRUE,FALSE
+2025/26,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,12263.41,FALSE,FALSE,TRUE
+2025/26,Revenue,"Functions, Bar & Food",Social Functions,19595.85,FALSE,FALSE,TRUE
+2025/26,Revenue,Subscriptions,Subscriptions,29507.58,FALSE,FALSE,TRUE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Grants,4500,FALSE,FALSE,TRUE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Sponsorships,9500,FALSE,FALSE,TRUE
+2025/26,Revenue,"Sponsors, Grants & Memberships",Memberships,3000,FALSE,FALSE,TRUE
+2025/26,Revenue,Other,Other,383.73,FALSE,FALSE,TRUE
+2025/26,Revenue,Other,Interest,560.31,FALSE,FALSE,TRUE
+2025/26,Revenue,Other,Uniforms,501,FALSE,FALSE,TRUE
+2025/26,Expense,"Coach, Captain & Player Payments",Player Payments,18566.33,FALSE,FALSE,TRUE
+2025/26,Expense,"Coach, Captain & Player Payments",Captain ,2000,FALSE,FALSE,TRUE
+2025/26,Expense,"Coach, Captain & Player Payments",Senior Coach,9000,FALSE,FALSE,TRUE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8301,FALSE,FALSE,TRUE
+2025/26,Expense,"Equipment, & Uniforms & Training",Training,3845.5,FALSE,FALSE,TRUE
+2025/26,Expense,"Equipment, & Uniforms & Training",Uniforms,11253.25,FALSE,FALSE,TRUE
+2025/26,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),744.93,FALSE,FALSE,TRUE
+2025/26,Expense,"Functions, Bar & Food",Bar - Food/Drinks,9448.78,FALSE,FALSE,TRUE
+2025/26,Expense,"Functions, Bar & Food",Social Functions,7663.43,FALSE,FALSE,TRUE
+2025/26,Expense,"Functions, Bar & Food",Bar - Operational,104.49,FALSE,FALSE,TRUE
+2025/26,Expense,"Functions, Bar & Food",Liquor Licence,333.36,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Afternoon Tea,1110.64,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Umpires,4930.51,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,1729,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1232,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - T20,230,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,100,FALSE,FALSE,TRUE
+2025/26,Expense,Game Day & Affiliation Fees,External Ground Hire,623.7,FALSE,FALSE,TRUE
+2025/26,Expense,Other,Other,127.07,FALSE,FALSE,TRUE
+2025/26,Expense,Other,Donations,500,FALSE,FALSE,TRUE
+2025/26,Expense,Other,Social Media,54.99,FALSE,FALSE,TRUE
+2025/26,Expense,Other,Renovation to Clubrooms,3280.71,FALSE,FALSE,TRUE
+2025/26,Expense,Other,Bank / Paypal Fees,453.31,FALSE,FALSE,TRUE
+2025/26,Expense,Other,IT Charges,1146.8,FALSE,FALSE,TRUE
+2025/26,Expense,Reward and Recognition,Trophies,2900.21,FALSE,FALSE,TRUE
+2025/26,Expense,"Equipment, & Uniforms & Training",Other Equipment,426.75,FALSE,FALSE,TRUE
+2024/25,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,12263.41,TRUE,FALSE,FALSE
+2024/25,Revenue,"Functions, Bar & Food",Social Functions,19595.85,TRUE,FALSE,FALSE
+2024/25,Revenue,Subscriptions,Subscriptions,29507.58,TRUE,FALSE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Grants,4500,TRUE,FALSE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Sponsorships,9500,TRUE,FALSE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Memberships,3000,TRUE,FALSE,FALSE
+2024/25,Revenue,Other,Other,383.73,TRUE,FALSE,FALSE
+2024/25,Revenue,Other,Interest,560.31,TRUE,FALSE,FALSE
+2024/25,Revenue,Other,Uniforms,501,TRUE,FALSE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Player Payments,18566.33,TRUE,FALSE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Captain ,2000,TRUE,FALSE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Senior Coach,9000,TRUE,FALSE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8301,TRUE,FALSE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Training,3845.5,TRUE,FALSE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Uniforms,11253.25,TRUE,FALSE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),744.93,TRUE,FALSE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Bar - Food/Drinks,9448.78,TRUE,FALSE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Social Functions,7663.43,TRUE,FALSE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Bar - Operational,104.49,TRUE,FALSE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Liquor Licence,333.36,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Afternoon Tea,1110.64,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Umpires,4930.51,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,1729,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1232,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - T20,230,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,100,TRUE,FALSE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,External Ground Hire,623.7,TRUE,FALSE,FALSE
+2024/25,Expense,Other,Other,127.07,TRUE,FALSE,FALSE
+2024/25,Expense,Other,Donations,500,TRUE,FALSE,FALSE
+2024/25,Expense,Other,Social Media,54.99,TRUE,FALSE,FALSE
+2024/25,Expense,Other,Renovation to Clubrooms,3280.71,TRUE,FALSE,FALSE
+2024/25,Expense,Other,Bank / Paypal Fees,453.31,TRUE,FALSE,FALSE
+2024/25,Expense,Other,IT Charges,1146.8,TRUE,FALSE,FALSE
+2024/25,Expense,Reward and Recognition,Trophies,2900.21,TRUE,FALSE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Other Equipment,426.75,TRUE,FALSE,FALSE
+2024/25,Revenue,Subscriptions,Subscriptions,35450,FALSE,TRUE,FALSE
+2024/25,Revenue,"Functions, Bar & Food",Social Functions,20000,FALSE,TRUE,FALSE
+2024/25,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,13000,FALSE,TRUE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Sponsorships,15000,FALSE,TRUE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Grants,6500,FALSE,TRUE,FALSE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Memberships,500,FALSE,TRUE,FALSE
+2024/25,Revenue,Other,Afternoon Tea,2000,FALSE,TRUE,FALSE
+2024/25,Revenue,Other,Interest,1600,FALSE,TRUE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Player Payments,15050,FALSE,TRUE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Senior Coach,9000,FALSE,TRUE,FALSE
+2024/25,Expense,"Coach, Captain & Player Payments",Captain ,2000,FALSE,TRUE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Uniforms,12500,FALSE,TRUE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8000,FALSE,TRUE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Training,4000,FALSE,TRUE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),500,FALSE,TRUE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Social Functions,11975,FALSE,TRUE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Bar - Food/Drinks,8000,FALSE,TRUE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Bar - Operational,500,FALSE,TRUE,FALSE
+2024/25,Expense,"Functions, Bar & Food",Liquor Licence,325,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Umpires,7500,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Afternoon Tea,3600,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,External Ground Hire,2000,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,2000,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1100,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Womens,550,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Veterans,550,FALSE,TRUE,FALSE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - T20,550,FALSE,TRUE,FALSE
+2024/25,Expense,Reward and Recognition,Trophies,5000,FALSE,TRUE,FALSE
+2024/25,Expense,Other,Renovation to Clubrooms,2000,FALSE,TRUE,FALSE
+2024/25,Expense,Other,Other,1000,FALSE,TRUE,FALSE
+2024/25,Expense,Other,IT Charges,500,FALSE,TRUE,FALSE
+2024/25,Expense,Other,Bank / Paypal Fees,300,FALSE,TRUE,FALSE
+2024/25,Expense,Other,Social Media,200,FALSE,TRUE,FALSE
+2024/25,Expense,College and Sponsors,Mazenod College Payment,2600,FALSE,TRUE,FALSE
+2024/25,Expense,"Equipment, & Uniforms & Training",Other Equipment,500,FALSE,TRUE,FALSE
+2024/25,Revenue,"Functions, Bar & Food",Social Functions,13389.28,FALSE,FALSE,TRUE
+2024/25,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,13050,FALSE,FALSE,TRUE
+2024/25,Revenue,"Functions, Bar & Food",50 Year Anniversary,17175.3,FALSE,FALSE,TRUE
+2024/25,Revenue,Subscriptions,Subscriptions,34367.99,FALSE,FALSE,TRUE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Memberships,500,FALSE,FALSE,TRUE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Sponsorships,8500,FALSE,FALSE,TRUE
+2024/25,Revenue,"Sponsors, Grants & Memberships",Grants,7500,FALSE,FALSE,TRUE
+2024/25,Revenue,Other,Afternoon Tea,1898.56,FALSE,FALSE,TRUE
+2024/25,Revenue,Other,Uniforms,193.6,FALSE,FALSE,TRUE
+2024/25,Revenue,Other,Interest,477,FALSE,FALSE,TRUE
+2024/25,Revenue,Other,Miscellaneous,141.06,FALSE,FALSE,TRUE
+2024/25,Expense,"Functions, Bar & Food",Bar - Operational,0,FALSE,FALSE,TRUE
+2024/25,Expense,"Functions, Bar & Food",Liquor Licence,324.54,FALSE,FALSE,TRUE
+2024/25,Expense,"Functions, Bar & Food",Social Functions,5945.17,FALSE,FALSE,TRUE
+2024/25,Expense,"Functions, Bar & Food",Bar - Food/Drinks,6187.54,FALSE,FALSE,TRUE
+2024/25,Expense,"Functions, Bar & Food",50 Year Anniversary,16740,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8339.68,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),307.89,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Uniforms,0,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Uniforms,8431.2,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Uniforms,0,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Operational Equipment Expenses,0,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Training,1440,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Scoreboard,3335.75,FALSE,FALSE,TRUE
+2024/25,Expense,"Equipment, & Uniforms & Training",Bowling Machine,1630,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Afternoon Tea,2384.01,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,1859.09,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1175,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Veterans,242,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Womens,120,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,0,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,External Ground Hire,5177.31,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Umpires,6287.5,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Umpires,610,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,T20 Competition Entry,338.2,FALSE,FALSE,TRUE
+2024/25,Expense,Game Day & Affiliation Fees,Frogbox,0,FALSE,FALSE,TRUE
+2024/25,Expense,"Coach, Captain & Player Payments",Captain ,1500,FALSE,FALSE,TRUE
+2024/25,Expense,"Coach, Captain & Player Payments",Senior Coach,4000,FALSE,FALSE,TRUE
+2024/25,Expense,"Coach, Captain & Player Payments",Player Payments,10653.67,FALSE,FALSE,TRUE
+2024/25,Expense,College and Sponsors,Mazenod College Payment,2600,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Donations,500,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Social Media,0,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Renovation to Clubrooms,0,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Bank / Paypal Fees,0,FALSE,FALSE,TRUE
+2024/25,Expense,Other,IT Charges,798,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Miscellaneous,1019.32,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Fines,88,FALSE,FALSE,TRUE
+2024/25,Expense,Other,Insurance,0,FALSE,FALSE,TRUE
+2024/25,Expense,Reward and Recognition,Trophies,60,FALSE,FALSE,TRUE
+2023/24,Revenue,"Functions, Bar & Food",Social Functions,13389.28,TRUE,FALSE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,13050,TRUE,FALSE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",50 Year Anniversary,17175.3,TRUE,FALSE,FALSE
+2023/24,Revenue,Subscriptions,Subscriptions,34367.99,TRUE,FALSE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Memberships,500,TRUE,FALSE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Sponsorships,8500,TRUE,FALSE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Grants,7500,TRUE,FALSE,FALSE
+2023/24,Revenue,Other,Afternoon Tea,1898.56,TRUE,FALSE,FALSE
+2023/24,Revenue,Other,Uniforms,193.6,TRUE,FALSE,FALSE
+2023/24,Revenue,Other,Interest,477,TRUE,FALSE,FALSE
+2023/24,Revenue,Other,Miscellaneous,141.06,TRUE,FALSE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Bar - Operational,0,TRUE,FALSE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Liquor Licence,324.54,TRUE,FALSE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Social Functions,5945.17,TRUE,FALSE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Bar - Food/Drinks,6187.54,TRUE,FALSE,FALSE
+2023/24,Expense,"Functions, Bar & Food",50 Year Anniversary,16740,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Balls,8339.68,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),307.89,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,0,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,8431.2,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,0,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Operational Equipment Expenses,0,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Training,1440,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Scoreboard,3335.75,TRUE,FALSE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Bowling Machine,1630,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Afternoon Tea,2384.01,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,1859.09,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1175,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Veterans,242,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Womens,120,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,0,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,External Ground Hire,5177.31,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Umpires,6287.5,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Umpires,610,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,T20 Competition Entry,338.2,TRUE,FALSE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Frogbox,0,TRUE,FALSE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Captain ,1500,TRUE,FALSE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Senior Coach,4000,TRUE,FALSE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Player Payments,10653.67,TRUE,FALSE,FALSE
+2023/24,Expense,College and Sponsors,Mazenod College Payment,2600,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Donations,500,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Social Media,0,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Renovation to Clubrooms,0,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Bank / Paypal Fees,0,TRUE,FALSE,FALSE
+2023/24,Expense,Other,IT Charges,798,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Miscellaneous,1019.32,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Fines,88,TRUE,FALSE,FALSE
+2023/24,Expense,Other,Insurance,0,TRUE,FALSE,FALSE
+2023/24,Expense,Reward and Recognition,Trophies,60,TRUE,FALSE,FALSE
+2023/24,Revenue,Subscriptions,Subscriptions,34500,FALSE,TRUE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",Social Functions,14974.5,FALSE,TRUE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,13000,FALSE,TRUE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",50 Year Anniversary,0,FALSE,TRUE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Memberships,1000,FALSE,TRUE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Sponsorships,16500,FALSE,TRUE,FALSE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Grants,6500,FALSE,TRUE,FALSE
+2023/24,Revenue,Other,Afternoon Tea,3600,FALSE,TRUE,FALSE
+2023/24,Revenue,Other,Uniforms,2000,FALSE,TRUE,FALSE
+2023/24,Revenue,Other,Interest,0,FALSE,TRUE,FALSE
+2023/24,Revenue,Other,Miscellaneous,1500,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Balls,12000,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),500,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,5000,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,2000,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,5500,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Operational Equipment Expenses,500,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Training,2000,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Bowling Machine,1700,FALSE,TRUE,FALSE
+2023/24,Expense,"Equipment, & Uniforms & Training",Scoreboard,3335.75,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Afternoon Tea,3600,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Juniors,2200,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Mens,1100,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Veterans,550,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - Senior Womens,550,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees - All Abilities,0,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,External Ground Hire,8000,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Umpires,6500,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Umpires,1000,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,T20 Competition Entry,550,FALSE,TRUE,FALSE
+2023/24,Expense,Game Day & Affiliation Fees,Frogbox,0,FALSE,TRUE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Bar - Operational,1000,FALSE,TRUE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Liquor Licence,0,FALSE,TRUE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Social Functions,10800,FALSE,TRUE,FALSE
+2023/24,Expense,"Functions, Bar & Food",Bar - Food/Drinks,7000,FALSE,TRUE,FALSE
+2023/24,Expense,"Functions, Bar & Food",50 Year Anniversary,0,FALSE,TRUE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Captain ,2500,FALSE,TRUE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Senior Coach,5000,FALSE,TRUE,FALSE
+2023/24,Expense,"Coach, Captain & Player Payments",Player Payments,7500,FALSE,TRUE,FALSE
+2023/24,Expense,Reward and Recognition,Trophies,4000,FALSE,TRUE,FALSE
+2023/24,Expense,College and Sponsors,Mazenod College Payment,3500,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Donations,500,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Social Media,0,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Renovation to Clubrooms,0,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Bank / Paypal Fees,0,FALSE,TRUE,FALSE
+2023/24,Expense,Other,IT Charges,1000,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Miscellaneous,1000,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Fines,300,FALSE,TRUE,FALSE
+2023/24,Expense,Other,Insurance,600,FALSE,TRUE,FALSE
+2023/24,Revenue,"Functions, Bar & Food",Bar - Food/Drinks,12971.5,FALSE,FALSE,TRUE
+2023/24,Revenue,Subscriptions,Subscriptions,34058.82,FALSE,FALSE,TRUE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Memberships,895,FALSE,FALSE,TRUE
+2023/24,Revenue,"Functions, Bar & Food",Social Functions,16599.13,FALSE,FALSE,TRUE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Sponsorships,14217.09,FALSE,FALSE,TRUE
+2023/24,Revenue,Other,Uniforms,8034.07,FALSE,FALSE,TRUE
+2023/24,Revenue,"Sponsors, Grants & Memberships",Grants,3300,FALSE,FALSE,TRUE
+2023/24,Revenue,Other,Other,1190,FALSE,FALSE,TRUE
+2023/24,Revenue,Other,Afternoon Tea,0,FALSE,FALSE,TRUE
+2023/24,Revenue,Other,Interest,0,FALSE,FALSE,TRUE
+2023/24,Expense,"Functions, Bar & Food",Bar - Food/Drinks,6611.5,FALSE,FALSE,TRUE
+2023/24,Expense,Game Day & Affiliation Fees,Affiliation Fees ,3237.5,FALSE,FALSE,TRUE
+2023/24,Expense,"Functions, Bar & Food",Social Functions,10147.46,FALSE,FALSE,TRUE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Equipment (Club Wide - Excl. Balls),6221.34,FALSE,FALSE,TRUE
+2023/24,Expense,"Equipment, & Uniforms & Training",Uniforms,15325.8,FALSE,FALSE,TRUE
+2023/24,Expense,College and Sponsors,Mazenod College Payment,1200,FALSE,FALSE,TRUE
+2023/24,Expense,Game Day & Affiliation Fees,External Ground Hire,6979.11,FALSE,FALSE,TRUE
+2023/24,Expense,Other,Insurance,528.02,FALSE,FALSE,TRUE
+2023/24,Expense,"Coach, Captain & Player Payments",Senior Coach,15000,FALSE,FALSE,TRUE
+2023/24,Expense,"Coach, Captain & Player Payments",Player Payments,10698.45,FALSE,FALSE,TRUE
+2023/24,Expense,"Equipment, & Uniforms & Training",Training,1950,FALSE,FALSE,TRUE
+2023/24,Expense,Other,IT Charges,977.95,FALSE,FALSE,TRUE
+2023/24,Expense,Reward and Recognition,Trophies,5699.78,FALSE,FALSE,TRUE
+2023/24,Expense,Game Day & Affiliation Fees,Umpires,5871.5,FALSE,FALSE,TRUE
+2023/24,Expense,"Equipment, & Uniforms & Training",Cricket Balls,10833,FALSE,FALSE,TRUE
+2023/24,Expense,Other,Fines,340,FALSE,FALSE,TRUE
+2023/24,Expense,"Functions, Bar & Food",Liquor Licence,378.4,FALSE,FALSE,TRUE
+2023/24,Expense,Other,Other,927.38,FALSE,FALSE,TRUE

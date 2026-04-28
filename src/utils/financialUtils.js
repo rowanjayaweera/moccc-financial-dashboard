@@ -6,6 +6,10 @@ export const REPORTING_YEARS = ['2023/24', '2024/25', '2025/26'];
 export const LOCKED_BUDGET_YEARS = ['2023/24', '2024/25'];
 export const BUDGET_VALUES_STORAGE_KEY = 'moccc-2025-26-budget-values';
 export const BUDGET_FINALIZED_STORAGE_KEY = 'moccc-2025-26-budget-finalized';
+export const SHARED_DATA_VERSION_STORAGE_KEY = 'moccc-shared-data-version';
+export const SHARED_DATA_VERSION = '2025-26-shared-financials-v1';
+export const SHARED_DATA_FILE_NAME = 'MOCCC-Financials-Shared.csv';
+export const DEFAULT_OPEN_BUDGET_FINALIZED = true;
 export const BASE_OPENING_CASH_YEAR = '2023/24';
 export const BASE_OPENING_CASH_BALANCE = 46968;
 

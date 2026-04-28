@@ -30,8 +30,12 @@ import {
   BUDGET_VALUES_STORAGE_KEY,
   CSV_FILE_STORAGE_KEY,
   CSV_STORAGE_KEY,
+  DEFAULT_OPEN_BUDGET_FINALIZED,
   LOCKED_BUDGET_YEARS,
   OPEN_BUDGET_YEAR,
+  SHARED_DATA_FILE_NAME,
+  SHARED_DATA_VERSION,
+  SHARED_DATA_VERSION_STORAGE_KEY,
   THEME_STORAGE_KEY,
   buildBudgetSeedValues,
   buildBudgetValuesFromRows,
@@ -75,8 +79,11 @@ const readStoredBudgetValues = () => {
 };
 
 const readStoredBudgetFinalized = () => {
-  if (typeof window === 'undefined') return false;
-  return localStorage.getItem(BUDGET_FINALIZED_STORAGE_KEY) === 'true';
+  if (typeof window === 'undefined') return DEFAULT_OPEN_BUDGET_FINALIZED;
+
+  const storedValue = localStorage.getItem(BUDGET_FINALIZED_STORAGE_KEY);
+  if (storedValue === null) return DEFAULT_OPEN_BUDGET_FINALIZED;
+  return storedValue === 'true';
 };
 
 function App() {
@@ -156,16 +163,34 @@ function App() {
     });
   }, [setBudgetValuesAndPersist]);
 
-  const fetchRemoteCSV = useCallback(async (options = {}) => {
+  const fetchSharedCSV = useCallback(async (options = {}) => {
+    const {
+      persistSharedData = false,
+      finalizeOpenBudget = false,
+      ...parseOptions
+    } = options || {};
+
     try {
-      const response = await fetch('https://raw.githubusercontent.com/rowjay29/moccc-financial-dashboard/master/MOCCC%20Financials.csv');
+      const response = await fetch(`${process.env.PUBLIC_URL}/${SHARED_DATA_FILE_NAME}`);
+      if (!response.ok) throw new Error(`Shared CSV request failed: ${response.status}`);
       const text = await response.text();
-      parseCSV(text, options);
+
+      if (persistSharedData) {
+        localStorage.setItem(CSV_STORAGE_KEY, text);
+        localStorage.setItem(CSV_FILE_STORAGE_KEY, SHARED_DATA_FILE_NAME);
+        localStorage.setItem(SHARED_DATA_VERSION_STORAGE_KEY, SHARED_DATA_VERSION);
+      }
+
+      if (finalizeOpenBudget) {
+        setBudgetFinalizedAndPersist(true);
+      }
+
+      parseCSV(text, parseOptions);
     } catch (error) {
-      console.error('Error fetching remote CSV:', error);
-      setParseWarning('Could not load sample data. Please upload your CSV file.');
+      console.error('Error fetching shared CSV:', error);
+      setParseWarning('Could not load shared financial data. Please upload your CSV file.');
     }
-  }, [parseCSV]);
+  }, [parseCSV, setBudgetFinalizedAndPersist]);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
@@ -175,16 +200,28 @@ function App() {
 
     const storedCSV = localStorage.getItem(CSV_STORAGE_KEY);
     const storedName = localStorage.getItem(CSV_FILE_STORAGE_KEY);
+    const storedSharedDataVersion = localStorage.getItem(SHARED_DATA_VERSION_STORAGE_KEY);
+    const shouldSeedSharedData = storedSharedDataVersion !== SHARED_DATA_VERSION;
     const storedOpenBudgetValues = readStoredBudgetValues();
     const shouldSyncOpenBudgetFromCSV = !hasBudgetLineValues(storedOpenBudgetValues);
 
-    if (storedCSV) {
+    if (shouldSeedSharedData) {
+      fetchSharedCSV({
+        syncOpenBudget: true,
+        persistSharedData: true,
+        finalizeOpenBudget: true,
+      });
+    } else if (storedCSV) {
       parseCSV(storedCSV, { syncOpenBudget: shouldSyncOpenBudgetFromCSV });
       if (!storedName) localStorage.removeItem(CSV_FILE_STORAGE_KEY);
     } else {
-      fetchRemoteCSV({ syncOpenBudget: shouldSyncOpenBudgetFromCSV });
+      fetchSharedCSV({
+        syncOpenBudget: shouldSyncOpenBudgetFromCSV,
+        persistSharedData: true,
+        finalizeOpenBudget: DEFAULT_OPEN_BUDGET_FINALIZED,
+      });
     }
-  }, [fetchRemoteCSV, parseCSV]);
+  }, [fetchSharedCSV, parseCSV]);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
@@ -348,9 +385,17 @@ function App() {
                       Upload CSV
                       <input type="file" accept=".csv" onChange={handleCSVUpload} className="hidden" />
                     </label>
-                    <button type="button" onClick={fetchRemoteCSV} className="hub-action-chip">
+                    <button
+                      type="button"
+                      onClick={() => fetchSharedCSV({
+                        syncOpenBudget: true,
+                        persistSharedData: true,
+                        finalizeOpenBudget: true,
+                      })}
+                      className="hub-action-chip"
+                    >
                       <RefreshCcw className="h-4 w-4" />
-                      Reload sample
+                      Reload shared data
                     </button>
                   </div>
                 </div>
