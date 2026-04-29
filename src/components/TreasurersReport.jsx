@@ -143,6 +143,12 @@ function TreasurersReport202526() {
           and all involved for their work across the season organizing these events.
         </p>
         <p>
+          Bar profit came in at around <span className="font-semibold">$2,500</span>, broadly in line with last year. Gross bar takings were
+          nearly <span className="font-semibold">$5,000</span> higher than last year, which is a positive sign of engagement around the club
+          and was helped along by the on-field success. That extra revenue did not flow through to the bottom line though, with bar expenses
+          also rising by around <span className="font-semibold">$5,000</span> over the same period.
+        </p>
+        <p>
           Club merchandise and our order of hoodies was another small win, with strong buy-in from members and more than 41 hoodies purchased,
           contributing around <span className="font-semibold">$600</span> in profit.
         </p>
@@ -150,9 +156,9 @@ function TreasurersReport202526() {
           Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
           Player payments at current levels are about all we can sustain unless that revenue grows. The juniors program continues to go from
           strength to strength and is genuinely the most important long-term asset we have at the club, both as a subscription driver and as a
-          future supporter and sponsorship pipeline. The path forward is revenue-led. Cost discipline will remain important, but there is not
-          a lot of fat left to cut. The focus needs to be on broadening the sponsor base, staying active with grant opportunities, and using
-          the strength of the junior program and recent on-field success to build new relationships around the club.
+          future supporter and sponsorship pipeline. The path forward is revenue-led. Cost discipline matters, but there is not a lot of fat
+          left to cut. The focus needs to be broadening the sponsor base, staying active with grant opportunities, and using the strength of
+          the junior program and recent on-field success to build new relationships around the club.
         </p>
         <p>
           On behalf of the club, I would like to extend my thanks to the broader committee, junior coordinators, Trena on afternoon teas, BBQ
@@ -160,7 +166,7 @@ function TreasurersReport202526() {
         </p>
         <p>
           Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
-          we need to keep building sustainable revenue streams if we want to continue investing in the club.
+          we need to keep building sustainable revenue if we want to continue investing in the club.
         </p>
       </div>
     </article>
