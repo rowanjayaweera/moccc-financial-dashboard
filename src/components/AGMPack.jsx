@@ -54,7 +54,7 @@ function AGMPack({ data, allData, selectedYear, openingBalance }) {
               <div>
                 <p className="agm-cover-kicker">Mazenod Old Collegians Cricket Club</p>
                 <h1>AGM Financial Pack</h1>
-                <p>Season {selectedYear || '-'} | Generated {generatedDate}</p>
+                <p>Season {selectedYear || '-'} | Generated {generatedDate} | Prepared by Rowan Jayaweera</p>
               </div>
             </div>
 
