@@ -133,12 +133,13 @@ function TreasurersReport202526() {
         </p>
 
         <p>
-          When finances are tight, the smaller wins matter. Our functions made an important contribution this year, with the Reverse Raffle
-          making just under <span className="font-semibold">$6,000</span>, Ladies Day just under <span className="font-semibold">$800</span>,
-          the Christmas Breakup around <span className="font-semibold">$500</span>, Presentation Night around{' '}
-          <span className="font-semibold">$700</span>, and the darts tournament also adding to the bottom line. None of these items solve
-          everything on their own, but together they helped keep us in the black. I would also like to thank Michael Riley and the committee
-          for their work across the season.
+          When finances are tight, the smaller wins matter. Our functions made an important contribution this year, bringing in profit of{' '}
+          <span className="font-semibold">$8.5k</span>; the Reverse Raffle making up the majority of this, coming in just shy of{' '}
+          <span className="font-semibold">$6,000</span>. Ladies Day was a success, bringing in just under{' '}
+          <span className="font-semibold">$800</span> in profit, the Christmas Breakup around <span className="font-semibold">$500</span>,
+          Presentation Night around <span className="font-semibold">$700</span> and the darts tournament also adding to the bottom line. These
+          items alone may not move the dial, but together they helped keep us in the black. I would like to thank Michael Riley, the committee
+          and all involved for their work across the season organizing these events.
         </p>
         <p>
           Club merchandise and our order of hoodies was another small win, with strong buy-in from members and more than 41 hoodies purchased,
