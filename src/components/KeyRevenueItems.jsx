@@ -79,7 +79,7 @@ function KeyRevenueItems202526() {
         <p>
           Total revenue finished at <span className="font-semibold">$73,137</span>, which was{' '}
           <span className="font-semibold">$6,675</span> lower than last year and{' '}
-          <span className="font-semibold">$16,663</span> below budget.
+          <span className="font-semibold">$16,663</span> below budget. The shortfall was concentrated in sponsorship, grants and functions.
         </p>
       </Section>
 
@@ -93,6 +93,10 @@ function KeyRevenueItems202526() {
         <p className="mt-2">
           Thanks to Matt Quinn's work across the season, the club was able to bring in new sponsorship support and reduce what would
           otherwise have been a larger shortfall.
+        </p>
+        <p className="mt-2">
+          The cash revenue numbers do not capture Mazenod College's continued in-kind support. Access to College facilities and the oval
+          materially reduces ground hire costs and remains one of the club's most important forms of support.
         </p>
       </Section>
 
@@ -114,7 +118,8 @@ function KeyRevenueItems202526() {
       <Section title="Subscriptions">
         <p>
           Subscriptions finished at <span className="font-semibold">$27,994</span>, slightly below last year and below budget. The junior
-          program remains the strongest long-term positive in this area and continues to be a major driver of subscription revenue.
+          program remains the strongest long-term positive in this area and continues to be a major driver of subscription revenue. It also
+          gives the club a natural pathway to broaden its supporter and sponsorship network over time.
         </p>
       </Section>
 

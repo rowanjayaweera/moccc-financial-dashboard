@@ -119,8 +119,8 @@ function KeyExpenseItems202526() {
 
       <Section title="Looking Ahead">
         <p>
-          The overall expense result was well managed, but the bigger picture remains that our cost base leaves limited room for further
-          investment unless revenue grows. Sponsorship and grants remain the clearest opportunities to improve that position.
+          The overall expense result was well managed, but there is not much fat left to cut. The path to a stronger result runs through
+          revenue, not expenses. Sponsorship and grants remain the clearest opportunities to improve that position.
         </p>
       </Section>
     </article>

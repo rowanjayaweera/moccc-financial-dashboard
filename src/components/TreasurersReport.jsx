@@ -92,16 +92,15 @@ function TreasurersReport202526() {
           <span className="font-semibold text-emerald-600 dark:text-emerald-400">$1,704</span>.
         </p>
         <p>
-          This is a much better result than last year's loss of{' '}
-          <span className="font-semibold text-rose-600 dark:text-rose-400">$10,295</span>, representing an improvement of almost{' '}
-          <span className="font-semibold">$12,000</span> year on year. It was, however, still{' '}
+          This is an improvement of almost <span className="font-semibold">$12,000</span> on last year's loss of{' '}
+          <span className="font-semibold text-rose-600 dark:text-rose-400">$10,295</span>, although still{' '}
           <span className="font-semibold text-rose-600 dark:text-rose-400">$2,594</span> behind our budgeted profit of{' '}
           <span className="font-semibold">$4,298</span>.
         </p>
         <p>
-          So while it is pleasing to finish in the black, the broader message remains fairly clear: even in a season where the club had
-          strong on-field success, including a 1st XI premiership and the 3rd XI making finals, the financial result was still only just
-          above breakeven. That has been a familiar theme for the club over a number of years.
+          The on-field side of the year deserves to lead: a 1st XI premiership and the 3rd XI making finals is a strong season by any
+          measure. The financial result needs to be read alongside that. We had on-field success and finished in the black, but only just
+          cleared breakeven. Until we grow the revenue base, that remains the reality.
         </p>
         <p>
           Revenue finished at <span className="font-semibold">$73,137</span>, which was <span className="font-semibold">$6,675</span> lower
@@ -111,8 +110,10 @@ function TreasurersReport202526() {
           offset much of that through lower costs.
         </p>
         <p>
-          The club ended the year with a closing bank balance of{' '}
-          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$43,476</span>.
+          The club opened the year with <span className="font-semibold">$41,772</span> in the bank and ended with a closing bank balance of{' '}
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$43,476</span>. We did not materially grow the cash position,
+          but we do retain a reasonable buffer to operate through tougher periods and, if the economic climate improves, to invest deliberately
+          back into the club.
         </p>
         <p>
           The current economic environment remains challenging, not only for community clubs, but for businesses and supporters as well.
@@ -124,6 +125,7 @@ function TreasurersReport202526() {
         <div>
           <p className="font-semibold text-slate-950 dark:text-white">I would like to thank our sponsors for their support:</p>
           <ul className="mt-2 ml-6 list-disc space-y-1">
+            <li>Mazenod College</li>
             <li>Bowery Capital</li>
             <li>McLardy McShane</li>
             <li>Win Real Estate</li>
@@ -133,6 +135,11 @@ function TreasurersReport202526() {
             <li>Transcal</li>
           </ul>
         </div>
+
+        <p>
+          Mazenod College also deserves specific acknowledgment for its continued in-kind support. Access to the College facilities and oval
+          materially reduces our ground hire costs, and in practical terms makes the College one of the club's most important supporters.
+        </p>
 
         <p>
           When finances are tight, the smaller wins matter. Our functions made an important contribution this year, with the Reverse Raffle
@@ -147,10 +154,19 @@ function TreasurersReport202526() {
           around <span className="font-semibold">$600</span> in profit.
         </p>
         <p>
-          Looking forward, sponsorship and grants remain the two biggest levers available to us if we want to invest further in the club. The
-          junior program continues to go from strength to strength and remains one of our most important revenue drivers through subscriptions.
-          More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there is a real
-          opportunity to grow our supporter and sponsorship network.
+          Thanks also to the broader committee, junior coordinators, canteen and BBQ helpers, scorers, and everyone who put their hand up when
+          the club needed it. None of this happens without that work.
+        </p>
+        <p>
+          Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
+          The junior program continues to go from strength to strength and remains one of our most important revenue drivers through
+          subscriptions. More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there
+          is a real opportunity to grow our supporter and sponsorship network alongside them.
+        </p>
+        <p>
+          The path forward is revenue-led. Cost discipline will remain important, but there is not a lot of fat left to cut. The focus needs to
+          be on broadening the sponsor base, staying active with grant opportunities, and using the strength of the junior program and recent
+          on-field success to build new relationships around the club.
         </p>
         <p>
           Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
