@@ -122,23 +122,11 @@ function TreasurersReport202526() {
           Quinn, we were able to bring in new sponsorship support, which helped reduce the impact.
         </p>
 
-        <div>
-          <p className="font-semibold text-slate-950 dark:text-white">I would like to thank our sponsors for their support:</p>
-          <ul className="mt-2 ml-6 list-disc space-y-1">
-            <li>Mazenod College</li>
-            <li>Bowery Capital</li>
-            <li>McLardy McShane</li>
-            <li>Win Real Estate</li>
-            <li>Wyllie Electrical Solutions</li>
-            <li>Weatherware Protection</li>
-            <li>Mulgrave Country Club</li>
-            <li>Transcal</li>
-          </ul>
-        </div>
-
         <p>
-          Mazenod College also deserves specific acknowledgment for its continued in-kind support. Access to the College facilities and oval
-          materially reduces our ground hire costs, and in practical terms makes the College one of the club's most important supporters.
+          I would like to thank our sponsors for their support: Bowery Capital, McLardy McShane, Win Real Estate, Wyllie Electrical Solutions,
+          Weatherware Protection, Mulgrave Country Club and Transcal. Mazenod College also deserves specific acknowledgment for its continued
+          in-kind support. Access to the College facilities and oval materially reduces our ground hire costs, and in practical terms makes
+          the College one of the club's most important supporters.
         </p>
 
         <p>
@@ -161,12 +149,10 @@ function TreasurersReport202526() {
           Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
           The junior program continues to go from strength to strength and remains one of our most important revenue drivers through
           subscriptions. More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there
-          is a real opportunity to grow our supporter and sponsorship network alongside them.
-        </p>
-        <p>
-          The path forward is revenue-led. Cost discipline will remain important, but there is not a lot of fat left to cut. The focus needs to
-          be on broadening the sponsor base, staying active with grant opportunities, and using the strength of the junior program and recent
-          on-field success to build new relationships around the club.
+          is a real opportunity to grow our supporter and sponsorship network alongside them. The path forward is revenue-led. Cost discipline
+          will remain important, but there is not a lot of fat left to cut. The focus needs to be on broadening the sponsor base, staying
+          active with grant opportunities, and using the strength of the junior program and recent on-field success to build new relationships
+          around the club.
         </p>
         <p>
           Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
