@@ -98,16 +98,17 @@ function TreasurersReport202526() {
           <span className="font-semibold">$4,298</span>.
         </p>
         <p>
-          The on-field side of the year deserves to lead: a 1st XI premiership and the 3rd XI making finals is a strong season by any
-          measure. The financial result needs to be read alongside that. We had on-field success and finished in the black, but only just
-          cleared breakeven. Until we grow the revenue base, that remains the reality.
+          The headline though is what happened on the field for the senior sides. A 1st XI premiership, a 3rd XI and womens finals appearance
+          is a great year by any measure, and the financial result needs to be read alongside that. We had on-field success and finished above
+          breakeven. That's a good year for the club. That said, the bigger picture is one we've talked about for several years: even in a
+          strong season, we only just clear breakeven. Until we grow the revenue base, that's the reality.
         </p>
         <p>
           Revenue finished at <span className="font-semibold">$73,137</span>, which was <span className="font-semibold">$6,675</span> lower
           than last year and <span className="font-semibold">$16,663</span> below budget. Expenses finished at{' '}
           <span className="font-semibold">$71,433</span>, which was <span className="font-semibold">$18,674</span> lower than last year and{' '}
-          <span className="font-semibold">$14,069</span> below budget. In simple terms, revenue came under pressure, but we were able to
-          offset much of that through lower costs.
+          <span className="font-semibold">$14,069</span> below budget. In simple terms, revenue came under pressure, but we offset most of it
+          by managing costs harder than budgeted.
         </p>
         <p>
           The club opened the year with <span className="font-semibold">$41,772</span> in the bank and ended with a closing bank balance of{' '}
@@ -138,21 +139,20 @@ function TreasurersReport202526() {
           for their work across the season.
         </p>
         <p>
-          The hoodie order was another positive result, with strong buy-in from members and more than 41 hoodies purchased, contributing
-          around <span className="font-semibold">$600</span> in profit.
-        </p>
-        <p>
-          Thanks also to the broader committee, junior coordinators, canteen and BBQ helpers, scorers, and everyone who put their hand up when
-          the club needed it. None of this happens without that work.
+          Club merchandise and our order of hoodies was another small win, with strong buy-in from members and more than 41 hoodies purchased,
+          contributing around <span className="font-semibold">$600</span> in profit.
         </p>
         <p>
           Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
-          The junior program continues to go from strength to strength and remains one of our most important revenue drivers through
-          subscriptions. More importantly, the juniors are the future of the club. As those families continue to come through the ranks, there
-          is a real opportunity to grow our supporter and sponsorship network alongside them. The path forward is revenue-led. Cost discipline
-          will remain important, but there is not a lot of fat left to cut. The focus needs to be on broadening the sponsor base, staying
-          active with grant opportunities, and using the strength of the junior program and recent on-field success to build new relationships
-          around the club.
+          Player payments at current levels are about all we can sustain unless that revenue grows. The juniors program continues to go from
+          strength to strength and is genuinely the most important long-term asset we have at the club, both as a subscription driver and as a
+          future supporter and sponsorship pipeline. The path forward is revenue-led. Cost discipline will remain important, but there is not
+          a lot of fat left to cut. The focus needs to be on broadening the sponsor base, staying active with grant opportunities, and using
+          the strength of the junior program and recent on-field success to build new relationships around the club.
+        </p>
+        <p>
+          On behalf of the club, I would like to extend my thanks to the broader committee, junior coordinators, Trena on afternoon teas, BBQ
+          helpers, scorers, and everyone else who put their hand up when the club needed it. None of this happens without that work.
         </p>
         <p>
           Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
