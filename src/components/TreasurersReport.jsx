@@ -89,19 +89,17 @@ function TreasurersReport202526() {
       <div className="space-y-4 text-sm sm:text-base">
         <p>
           For the 2025/26 season, the club finished with a cash-basis profit of{' '}
-          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$1,704</span>.
-        </p>
-        <p>
-          This is an improvement of almost <span className="font-semibold">$12,000</span> on last year's loss of{' '}
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$1,704</span>, an improvement of almost{' '}
+          <span className="font-semibold">$12,000</span> on last year's loss of{' '}
           <span className="font-semibold text-rose-600 dark:text-rose-400">$10,295</span>, although still{' '}
           <span className="font-semibold text-rose-600 dark:text-rose-400">$2,594</span> behind our budgeted profit of{' '}
           <span className="font-semibold">$4,298</span>.
         </p>
         <p>
-          The headline though is what happened on the field for the senior sides. A 1st XI premiership, a 3rd XI and womens finals appearance
-          is a great year by any measure, and the financial result needs to be read alongside that. We had on-field success and finished above
-          breakeven. That's a good year for the club. That said, the bigger picture is one we've talked about for several years: even in a
-          strong season, we only just clear breakeven. Until we grow the revenue base, that's the reality.
+          The headline though is what happened on the field for the senior sides: a 1st XI premiership, plus 3rd XI and womens finals
+          appearances. That's a great year by any measure, and the financial result needs to be read alongside it. We had on-field success and
+          finished above breakeven. That is a good year for the club. That said, the bigger picture is one we've talked about for several
+          years: even in a strong season, we only just clear breakeven. Until we grow the revenue base, that's the reality.
         </p>
         <p>
           Revenue finished at <span className="font-semibold">$73,137</span>, which was <span className="font-semibold">$6,675</span> lower
@@ -111,26 +109,25 @@ function TreasurersReport202526() {
           by managing costs harder than budgeted.
         </p>
         <p>
-          The club opened the year with <span className="font-semibold">$41,772</span> in the bank and ended with a closing bank balance of{' '}
-          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$43,476</span>. We did not materially grow the cash position,
-          but we do retain a reasonable buffer to operate through tougher periods and, if the economic climate improves, to invest deliberately
-          back into the club.
+          The club opened the year with <span className="font-semibold">$41,772</span> in the bank and closed at{' '}
+          <span className="font-semibold text-emerald-600 dark:text-emerald-400">$43,476</span>. The cash position did not materially grow,
+          but remains a reasonable buffer for tougher periods and gives us capacity to invest deliberately if the economic climate improves.
         </p>
         <p>
-          The current economic landscape is a challenging one, not just for community clubs, but for businesses and supporters alike. This
-          resulted in some of our most consistent supporters, such as MOCA, not being in a position to provide their usual contribution. We
-          also lost part of our existing sponsor base from last year. Combined, that's around an <span className="font-semibold">$11,000</span>{' '}
-          drop in sponsorship revenue year on year - a significant gap to absorb, and the main reason we came in below our budgeted profit.
-          Through Matt Quinn's work bringing in new sponsorship support, we recovered close to half of that drop, with the net shortfall
-          coming in at around <span className="font-semibold">$6,300</span> for the year. Without those new sponsors, the financial result
-          would have looked materially different.
+          The current economic landscape is challenging, not just for community clubs, but for businesses and supporters alike. Some of our
+          most consistent supporters, such as MOCA, were not in a position to provide their usual contribution, and we also lost part of our
+          existing sponsor base. Combined, that's around an <span className="font-semibold">$11,000</span> drop in sponsorship revenue year on
+          year - a significant gap to absorb, and the main reason we came in below budgeted profit. Through Matt Quinn's work bringing in new
+          sponsorship support, we recovered close to half of that drop, with the net shortfall around{' '}
+          <span className="font-semibold">$6,300</span>. Without those new sponsors, the financial result would have looked materially
+          different.
         </p>
 
         <p>
-          I would like to thank our sponsors for their support: Bowery Capital, McLardy McShane, Win Real Estate, Wyllie Electrical Solutions,
-          Weatherware Protection, Mulgrave Country Club and Transcal. Mazenod College also deserves specific acknowledgment for its continued
-          in-kind support. Access to the College facilities and oval materially reduces our ground hire costs, and in practical terms makes
-          the College one of the club's most important supporters.
+          I would like to thank our sponsors: Bowery Capital, McLardy McShane, Win Real Estate, Wyllie Electrical Solutions, Weatherware
+          Protection, Mulgrave Country Club and Transcal. Mazenod College also deserves specific acknowledgment for its continued in-kind
+          support. Access to College facilities and the oval materially reduces ground hire costs and makes the College one of our most
+          important supporters.
         </p>
 
         <p>
@@ -138,27 +135,26 @@ function TreasurersReport202526() {
           <span className="font-semibold">$8.5k</span>; the Reverse Raffle making up the majority of this, coming in just shy of{' '}
           <span className="font-semibold">$6,000</span>. Ladies Day was a success, bringing in just under{' '}
           <span className="font-semibold">$800</span> in profit, the Christmas Breakup around <span className="font-semibold">$500</span>,
-          Presentation Night around <span className="font-semibold">$700</span> and the darts tournament also adding to the bottom line. These
-          items alone may not move the dial, but together they helped keep us in the black. I would like to thank Michael Riley, the committee
-          and all involved for their work across the season organizing these events.
+          Presentation Night around <span className="font-semibold">$700</span>, and the darts tournament also adding to the bottom line. These
+          items may not move the dial alone, but together they helped keep us in the black. I would like to thank Michael Riley, the committee
+          and all involved for organizing these events.
         </p>
         <p>
           Bar profit came in at around <span className="font-semibold">$2,500</span>, broadly in line with last year. Gross bar takings were
-          nearly <span className="font-semibold">$5,000</span> higher than last year, which is a positive sign of engagement around the club
-          and was helped along by the on-field success. That extra revenue did not flow through to the bottom line though, with bar expenses
-          also rising by around <span className="font-semibold">$5,000</span> over the same period.
+          nearly <span className="font-semibold">$5,000</span> higher than last year, a positive sign of engagement helped by the on-field
+          success. That extra revenue did not flow through to the bottom line though, with bar expenses also rising by around{' '}
+          <span className="font-semibold">$5,000</span>.
         </p>
         <p>
           Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
           Player payments at current levels are about all we can sustain unless that revenue grows. The juniors program continues to go from
           strength to strength and is genuinely the most important long-term asset we have at the club, both as a subscription driver and as a
-          future supporter and sponsorship pipeline. The path forward is revenue-led. Cost discipline matters, but there is not a lot of fat
-          left to cut. The focus needs to be broadening the sponsor base, staying active with grant opportunities, and using the strength of
-          the junior program and recent on-field success to build new relationships around the club.
+          future supporter and sponsorship pipeline. The path forward is revenue-led: broadening the sponsor base, staying active with grant
+          opportunities, and using the junior program and recent on-field success to build new relationships around the club.
         </p>
         <p>
-          On behalf of the club, I would like to extend my thanks to the broader committee, junior coordinators, Trena on afternoon teas, BBQ
-          helpers, scorers, and everyone else who put their hand up when the club needed it. None of this happens without that work.
+          On behalf of the club, I would like to thank the broader committee, junior coordinators, Trena on afternoon teas, BBQ helpers,
+          scorers, and everyone else who put their hand up when needed. None of this happens without that work.
         </p>
         <p>
           Overall, the club remains financially stable, but tight. This was a positive result and a meaningful improvement on last year, but
