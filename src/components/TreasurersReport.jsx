@@ -149,10 +149,6 @@ function TreasurersReport202526() {
           also rising by around <span className="font-semibold">$5,000</span> over the same period.
         </p>
         <p>
-          Club merchandise and our order of hoodies was another small win, with strong buy-in from members and more than 41 hoodies purchased,
-          contributing around <span className="font-semibold">$600</span> in profit.
-        </p>
-        <p>
           Looking forward, sponsorship and grants remain the two biggest opportunities to grow the revenue base and invest further in the club.
           Player payments at current levels are about all we can sustain unless that revenue grows. The juniors program continues to go from
           strength to strength and is genuinely the most important long-term asset we have at the club, both as a subscription driver and as a
