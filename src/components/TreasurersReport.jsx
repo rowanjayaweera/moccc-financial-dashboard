@@ -117,10 +117,12 @@ function TreasurersReport202526() {
           back into the club.
         </p>
         <p>
-          The current economic environment remains challenging, not only for community clubs, but for businesses and supporters as well.
-          That was made clear this season when MOCA, who have been one of our most consistent supporters, were not in a position to provide
-          their usual contribution. We also lost part of our existing sponsor base from last year. Pleasingly, through the efforts of Matt
-          Quinn, we were able to bring in new sponsorship support, which helped reduce the impact.
+          The current economic landscape is a challenging one, not just for community clubs, but for businesses and supporters alike. This
+          resulted in some of our most consistent supporters, such as MOCA, not being in a position to provide their usual contribution. We
+          also lost part of our existing sponsor base from last year. Combined, that's around an <span className="font-semibold">$11,000</span>{' '}
+          drop in sponsorship revenue year on year - a significant gap to absorb, and the main reason we came in below our budgeted profit.
+          Through Matt Quinn's work bringing in new sponsorship support, we were able to reduce what would otherwise have been a much larger
+          shortfall.
         </p>
 
         <p>
