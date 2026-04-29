@@ -121,8 +121,9 @@ function TreasurersReport202526() {
           resulted in some of our most consistent supporters, such as MOCA, not being in a position to provide their usual contribution. We
           also lost part of our existing sponsor base from last year. Combined, that's around an <span className="font-semibold">$11,000</span>{' '}
           drop in sponsorship revenue year on year - a significant gap to absorb, and the main reason we came in below our budgeted profit.
-          Through Matt Quinn's work bringing in new sponsorship support, we were able to reduce what would otherwise have been a much larger
-          shortfall.
+          Through Matt Quinn's work bringing in new sponsorship support, we recovered close to half of that drop, with the net shortfall
+          coming in at around <span className="font-semibold">$6,300</span> for the year. Without those new sponsors, the financial result
+          would have looked materially different.
         </p>
 
         <p>
